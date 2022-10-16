@@ -14,9 +14,9 @@ public class Main {
             return;
         }
         else if(IsIntercalaryYear(year) == true)
-            System.out.println("Âèñîêîñíèé");
+            System.out.println("Ð’Ð¸ÑÐ¾ÐºÐ¾ÑÐ½Ð¸Ð¹");
         else{
-            System.out.println("Çâè÷àéíèé");
+            System.out.println("Ð—Ð²Ð¸Ñ‡Ð°Ð¹Ð½Ð¸Ð¹");
         }
     }
 
@@ -31,13 +31,13 @@ public class Main {
             return;
         }
         else if(numberOfProgrammers == 1){
-            System.out.print(numberOfProgrammers + " ïðîãðàì³ñò");
+            System.out.print(numberOfProgrammers + " Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ñ–ÑÑ‚");
         }
         else if(numberOfProgrammers > 1 && numberOfProgrammers < 5){
-            System.out.print(numberOfProgrammers + " ïðîãðàì³ñòè");
+            System.out.print(numberOfProgrammers + " Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ñ–ÑÑ‚Ð¸");
         }
         else{
-            System.out.print(numberOfProgrammers + " ïðîãðàì³ñò³â");
+            System.out.print(numberOfProgrammers + " Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ñ–ÑÑ‚Ñ–Ð²");
         }
     }
 
@@ -87,9 +87,9 @@ public class Main {
         int x = Integer.parseInt(reader.readLine());
         System.out.print("Input last number: ");
         int y = Integer.parseInt(reader.readLine());
-        System.out.print("Íàéá³ëüøèé ö³ëèé ä³ëüíèê öèõ ÷èñåë: " + NOD(x, y));
+        System.out.print("ÐÐ°Ð¹Ð±Ñ–Ð»ÑŒÑˆÐ¸Ð¹ Ñ†Ñ–Ð»Ð¸Ð¹ Ð´Ñ–Ð»ÑŒÐ½Ð¸Ðº Ñ†Ð¸Ñ… Ñ‡Ð¸ÑÐµÐ»: " + NOD(x, y));
 
-        System.out.print("\n\tTask #4:\nÍîìåð äíÿ, íà ÿêèé ïðîá³ã ñïîðòñìåíà ñêëàäå íå ìåíøå y ê³ëîìåòð³â: ");
+        System.out.print("\n\tTask #4:\nÐÐ¾Ð¼ÐµÑ€ Ð´Ð½Ñ, Ð½Ð° ÑÐºÐ¸Ð¹ Ð¿Ñ€Ð¾Ð±Ñ–Ð³ ÑÐ¿Ð¾Ñ€Ñ‚ÑÐ¼ÐµÐ½Ð° ÑÐºÐ»Ð°Ð´Ðµ Ð½Ðµ Ð¼ÐµÐ½ÑˆÐµ y ÐºÑ–Ð»Ð¾Ð¼ÐµÑ‚Ñ€Ñ–Ð²: ");
         Task4(2,4);
     }
 }
